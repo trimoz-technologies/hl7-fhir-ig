@@ -63,7 +63,7 @@ services:
 2. **Générer le dossier de sortie (`output`)**  
    Pour générer le dossier `output`, exécutez les commandes suivantes à travers le conteneur `hl7-fhir-ig` :
    ```bash
-   docker-compose exec hl7-fhir-ig ./genonce.sh
+   docker exec hl7-fhir-ig ./_genonce.sh
    ```
    Cette commande permettent de générer le guide d'implémentation (fichiers html).
 
