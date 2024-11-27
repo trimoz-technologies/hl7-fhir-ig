@@ -1,3 +1,3 @@
-# .
+# Introduction
 
-Feel free to modify this index page with your own awesome content!
+This implementation guide is provided to support the interoperability of Clic Santé's Systems

@@ -53,23 +53,21 @@ services:
       - hl7-fhir-ig
 ```
 
-## Instructions pouruUtiliser Docker Compose
+## Instructions pour utiliser Docker Compose
+1. **Lancer les services `hl7-fhir-ig` et `hl7-fhir-nginx`**  
+   Pour lancer les conteneurs, exécutez la commande suivante:
+   ```bash
+   docker-compose up -d
+   ```
 
-1. **Générer le dossier de sortie (`output`)**
+2. **Générer le dossier de sortie (`output`)**  
    Pour générer le dossier `output`, exécutez les commandes suivantes à travers le conteneur `hl7-fhir-ig` :
    ```bash
-   docker-compose run hl7-fhir-ig /bin/sh -c "./updatePublisher.sh && ./genonce.sh"
+   docker-compose exec hl7-fhir-ig ./genonce.sh
    ```
-   Ces commandes permettent de mettre à jour l'éditeur IG et de générer le guide d'implémentation. Une fois que le dossier `output` est créé, vous pouvez passer à l'étape suivante.
+   Cette commande permettent de générer le guide d'implémentation (fichiers html).
 
-2. **Lancer le service NGINX**
-   Une fois le dossier `output` généré, lancez le service NGINX pour héberger l'IG :
-   ```bash
-   docker-compose up hl7-fhir-nginx
-   ```
-   Cela démarre le service NGINX pour héberger l'IG généré.
-
-3. **Accéder à l'Implementation Guide**
+3. **Accéder à l'Implementation Guide**  
    Une fois les services lancés, accédez à votre IG en ouvrant un navigateur et en allant à l'adresse suivante :
    ```
    http://localhost:8100
@@ -96,6 +94,6 @@ Si le port 8100 est déjà utilisé, modifiez la section `ports` dans le service
 Ajoutez ou modifiez les fichiers dans `input/fsh` et `input/pagecontent` pour mettre à jour le contenu de l'IG.
 
 ## Notes complémentaires
-- Assurez-vous que le dossier `output` est correctement généré par SUSHI avant de lancer NGINX.
+- Assurez-vous que le dossier `output` est correctement généré par SUSHI pour voir vos modification.
 - Le service NGINX est configuré avec un healthcheck pour s'assurer que le dossier `output` est présent avant de démarrer le service.
 
