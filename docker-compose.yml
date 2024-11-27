@@ -7,7 +7,6 @@ services:
     volumes:
       - .:/app
     tty: true
-    command: /bin/sh -c "./_updatePublisher.sh && ./_genonce.sh"
 
   hl7-fhir-nginx:
     image: nginx:latest

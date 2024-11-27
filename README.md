@@ -54,20 +54,26 @@ services:
 ```
 
 ## Instructions pour utiliser Docker Compose
-1. **Lancer les services `hl7-fhir-ig` et `hl7-fhir-nginx`**  
+1. **Créer le dossier `output`**
+   Il faut créer le dossier manuellement pour s'assurer que celui-ci as les bonnes permissions.
+   ```bash
+   mkdir output
+   ```
+
+2. **Lancer les services `hl7-fhir-ig` et `hl7-fhir-nginx`**  
    Pour lancer les conteneurs, exécutez la commande suivante:
    ```bash
    docker-compose up -d
    ```
 
-2. **Récupérer le IG Publisher le plus recent**  
+3. **Récupérer le IG Publisher le plus recent**  
    Pour récupérer le IG Publisher, exécutez les commandes suivantes à travers le conteneur `hl7-fhir-ig` :
    ```bash
    docker exec hl7-fhir-ig ./_updatePublisher.sh
    ```
    Cette commande permettent de télécharger le module qui s'occupe de générer le IG.
 
-3. **Générer le dossier de sortie (`output`)**  
+4. **Générer le dossier de sortie (`output`)**  
    Pour générer le dossier `output`, exécutez les commandes suivantes à travers le conteneur `hl7-fhir-ig` :
    ```bash
    docker exec hl7-fhir-ig ./_genonce.sh
@@ -75,20 +81,20 @@ services:
    Cette commande permettent de générer le guide d'implémentation (fichiers html).  
    **NOTE:** _Vous devrez exécuter cette commande à chaque modification effectué dans les fichiers FSH ou de template pour que le résultat se réflète sur la page web._
 
-4. **Accéder à l'Implementation Guide**  
+5. **Accéder à l'Implementation Guide**  
    Une fois les services lancés, accédez à votre IG en ouvrant un navigateur et en allant à l'adresse suivante :
    ```
    http://localhost:8100
    ```
 
-5. **Vérification des logs**
+6. **Vérification des logs**
    Pour vérifier les journaux des services, utilisez :
    ```bash
    docker-compose logs -f
    ```
    Cette commande permet de voir les journaux des services en temps réel pour déboguer d'éventuels problèmes.
 
-6. **Arrêter les services**
+7. **Arrêter les services**
    Pour arrêter les services, utilisez la commande suivante :
    ```bash
    docker-compose down
