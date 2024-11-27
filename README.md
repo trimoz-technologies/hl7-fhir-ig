@@ -96,4 +96,3 @@ Ajoutez ou modifiez les fichiers dans `input/fsh` et `input/pagecontent` pour me
 ## Notes complémentaires
 - Assurez-vous que le dossier `output` est correctement généré par SUSHI pour voir vos modification.
 - Le service NGINX est configuré avec un healthcheck pour s'assurer que le dossier `output` est présent avant de démarrer le service.
-
