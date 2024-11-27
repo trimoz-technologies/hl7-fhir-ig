@@ -1,0 +1,27 @@
+services:
+  hl7-fhir-ig:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hl7-fhir-ig
+    volumes:
+      - .:/app
+    tty: true
+    command: /bin/sh -c "./_updatePublisher.sh && ./_genonce.sh"
+
+  hl7-fhir-nginx:
+    image: nginx:latest
+    container_name: hl7-fhir-nginx
+    ports:
+      - "8100:80"
+    volumes:
+      - ./output:/usr/share/nginx/html
+    healthcheck:
+      test: [ "CMD", "sh", "-c", "[ -d /usr/share/nginx/html ]" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    entrypoint: /bin/sh -c "nginx -g 'daemon off;'"
+    depends_on:
+      - hl7-fhir-ig
