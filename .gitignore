@@ -6,3 +6,5 @@ Thumbs.db
 /temp
 /template
 .idea
+.index.db
+.index.json
