@@ -4,8 +4,8 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.clicsante
-canonical: https://clicsante.ca
-name: .
+canonical: http://clicsante.ca/fhir
+name: ClicSante
 title: Clic Santé
 # description: Guide d'implémentation pour l'interopérabilité avec les systèmes de Clic Santé
 status: draft # draft | active | retired | unknown
