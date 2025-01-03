@@ -12,7 +12,7 @@ Parent: RelatedPerson
 Title: "Limited RelatedPerson"
 Description: "A constrained RelatedPerson resource to represent specific familial relationships, including spouse, mother and father"
 
-* id 0..0
+* id 1..1
 * meta 0..0
 * implicitRules 0..0
 * language 0..0
