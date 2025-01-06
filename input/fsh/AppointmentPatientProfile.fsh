@@ -1,12 +1,11 @@
 Profile: AppointmentPatientProfile
 Parent: Patient
-Id: clicstante-appointment-patient-profile
+Id: appointment-patient-profile
 Title: "Patient of an appointment"
 Description: "This is a patient for an appointment that aligns with Clic Sante's Systems"
 
-* active MS // Active is mandatory
-* birthDate MS // BirthDate is mandatory
-* gender MS // Gender is mandatory
+* birthDate 1..1 MS // BirthDate is mandatory
+* gender 1..1 MS // Gender is mandatory
 
 * name 2.. MS // At least one name is mandatory
 // * name[0].use = #official (exactly) MS // First occurrence of name must have a use
@@ -18,6 +17,13 @@ Description: "This is a patient for an appointment that aligns with Clic Sante's
 // * name[1].use MS // Old names must also have a use
 // * name[1].use = #old (exactly)
 // * name[1].text MS // Old names must also have text
+
+* deceased[x] 0..0
+* address 0..0
+
+* maritalStatus 1..1 MS
+
+* photo 0..0
 
 // Examples
 Instance: ExamplePatientFromAppointment
@@ -43,3 +49,5 @@ Usage: #example
 * name[1].use = #old
 
 * name[2].text = ""
+
+* maritalStatus = #S
