@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.clicsante
-canonical: http://clicsante.ca/fhir
+canonical: https://build.fhir.org/ig/trimoz-technologies/hl7-fhir-ig
 name: ClicSante
 title: Clic Santé
 # description: Guide d'implémentation pour l'interopérabilité avec les systèmes de Clic Santé
