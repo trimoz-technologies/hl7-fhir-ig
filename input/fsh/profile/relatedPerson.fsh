@@ -1,7 +1,7 @@
 Profile: RelatedPersonProfile
 Id: related-person
 Parent: RelatedPerson
-Title: "RelatedPerson"
+Title: "Related Person"
 Description: "A constrained RelatedPerson resource to represent specific familial relationships, including spouse, mother, father and emergency contact"
 * id 1..1
 * meta 0..0
