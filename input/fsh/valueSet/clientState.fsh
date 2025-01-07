@@ -1,5 +1,5 @@
 ValueSet: ClientStateValueSet
-Id:         client-state-value-set
+Id:         client-state
 Title:     "Client State Value Set"
 Description: "Client State Value Set from Clic Sante"
-* include codes from system ClientStateCS
+* include codes from system ClientStateCodeSystem
