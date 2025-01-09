@@ -4,15 +4,19 @@ Title:     "Client State Codes"
 Description: "Client State Codes from Clic Sante"
 * ^status = #active
 * ^content = #complete
-* ^experimental = false
-* ^count = 4
-* #PRESENT
-    "ClientState Present"
-* #CANCELLED
-    "ClientState Cancelled"
 * #ABSENT
-    "ClientState Absent"
-* #UNDEFINED
-    "ClientState Undefined"
+    "Absent"
+* #CANCELLED_ADMIN
+    "Cancelled (admin)"
+* #CANCELLED_PUBLIC
+    "Cancelled (public)"
+* #LATE
+    "Late"
 * #NOT_ELIGIBLE
-    "ClientState Not Eligible"
+    "Not eligible"
+* #PRESENT
+    "Present"
+* #SAMPLE_RECEIVED
+    "Sample received"
+* #UNDEFINED
+    "Undefined"
