@@ -20,11 +20,14 @@ Description : "This is an appointment that aligns with Clic Sante's systems"
   * actor only Reference(AppointmentPatientProfile or RelatedPersonProfile)
   * status from ClientStateValueSet
     * ^short = "absent | cancelled-admin | cancelled-public | late | not-eligible | present | sample-received | undefined"
-  * extension contains StatusModified named statusModified 0..1
-  * extension[statusModified] ^short = "When the status was last modified"
+  * extension contains ClientStateModified named clientStateModified 0..1
+  * extension[clientStateModified] ^short = "When the status was last modified"
 
 * extension contains AppointmentAvailabilityState named availabilityState 0..1
 * extension[availabilityState] ^short = "invalid | deleted | pending | active | inactive"
+
+* extension contains AppointmentStatusModified named statusModified 0..1
+* extension[statusModified] ^short = "When the status of the appointment was last modified"
 
 * extension contains $tzExtension named timezone 0..1
 * extension[timezone] ^short = "The timezone of all datetime present in the appointment"
@@ -37,6 +40,9 @@ Description : "This is an appointment that aligns with Clic Sante's systems"
 
 * extension contains AppointmentFollowUpState named followUpState 0..1
 * extension[followUpState] ^short = "reached | not_reached | no_action_taken"
+
+* extension contains AppointmentFollowUpStateModified named followUpStateModified 0..1
+* extension[followUpStateModified] ^short = "When the follow up state was last modified"
 
 * extension contains AppointmentSource named source 0..1
 * extension[source] ^short = "admin | public"
