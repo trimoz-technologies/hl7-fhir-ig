@@ -1,5 +1,5 @@
 Profile: AppointmentProfile
-Id: appointment-profile
+Id: appointment
 Parent: Appointment
 Title: "Appointment"
 Description : "This is an appointment that aligns with Clic Sante's systems"
@@ -15,6 +15,9 @@ Description : "This is an appointment that aligns with Clic Sante's systems"
 * created 1..1
 * start 1..1
 * end 1..1
+
+// TODO: maybe we should add identifier?
+
 * participant 1..*
   * modifierExtension 0..0
   * actor only Reference(AppointmentPatientProfile or RelatedPersonProfile)
