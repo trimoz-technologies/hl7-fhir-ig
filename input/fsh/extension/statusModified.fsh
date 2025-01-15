@@ -1,6 +1,5 @@
 Extension: StatusModified
 Id: status-modified
-Title: "Status modified"
+Title: "Status Modified"
 Description: "An extension to represent when the status was modified."
-Context: Appointment
 * value[x] only instant
