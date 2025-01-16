@@ -1,5 +1,5 @@
 Profile: AppointmentProfile
-Id: appointment-profile
+Id: appointment
 Parent: Appointment
 Title: "Appointment"
 Description : "This is an appointment that aligns with Clic Sante's systems"
