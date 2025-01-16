@@ -1,4 +1,6 @@
 # Guide d'utilisation de Docker Compose pour l'hébergement Local de l'Implementation Guide
+## Template
+**clicsante.template.base**
 
 ## Prérequis
 - **Docker** et **Docker Compose** doivent être installés sur votre machine.
