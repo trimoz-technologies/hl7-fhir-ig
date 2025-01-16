@@ -3,12 +3,12 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.clicsante
-canonical: http://hl7.org/fhir/ca/clicsante
+id: clicsante.ig
+canonical: http://clicsante.ca/fhir
 name: ClicSante
 title: Clic Santé
 # description: Guide d'implémentation pour l'interopérabilité avec les systèmes de Clic Santé
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
