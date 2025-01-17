@@ -5,7 +5,6 @@ Description: "Client State Codes from Clic Sante"
 * ^status = #active
 * ^content = #complete
 * ^experimental = false
-* ^count = 4
 * #PRESENT
     "ClientState Present"
 * #CANCELLED
