@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: clicsante.ig
-canonical: http://clicsante.ca/fhir
+id: ca.clicsante.base
+canonical: http://clicsante.ca/fhir/base
 name: ClicSante
 title: Clic Santé
 # description: Guide d'implémentation pour l'interopérabilité avec les systèmes de Clic Santé
