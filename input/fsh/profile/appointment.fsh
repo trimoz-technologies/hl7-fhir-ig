@@ -58,3 +58,6 @@ Description : "This is an appointment that aligns with Clic Sante's systems"
 
 * extension contains AppointmentDistanceHidden named isDistanceHidden 0..1
 * extension[isDistanceHidden] ^short = "Whether the distance should be hidden"
+
+* extension contains AppointmentResident named resident 0..1
+* extension[resident] ^short = "The resident associated with the appointment"
