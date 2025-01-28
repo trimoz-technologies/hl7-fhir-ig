@@ -3,6 +3,7 @@ Id: appointment
 Parent: Appointment
 Title: "Appointment"
 Description : "This is an appointment that aligns with Clic Sante's systems"
+* ^experimental = true
 
 * implicitRules 0..0
 * modifierExtension 0..0
@@ -10,7 +11,7 @@ Description : "This is an appointment that aligns with Clic Sante's systems"
 * id 1..1
 * language 1..1
 * status 1..1
-* status from AppointmentStateValueSet
+* status from AppointmentStateValueSet (required)
   * ^short = "taken | pending | awaiting-confirmation | confirmed | late"
 * created 1..1
 * start 1..1

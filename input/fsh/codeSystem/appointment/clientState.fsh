@@ -4,6 +4,9 @@ Title:     "Client State Codes"
 Description: "Client State Codes from Clic Sante"
 * ^status = #active
 * ^content = #complete
+* ^caseSensitive = true
+* ^experimental = true
+
 * #ABSENT
     "Absent"
 * #CANCELLED_ADMIN
