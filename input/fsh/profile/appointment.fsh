@@ -10,14 +10,17 @@ Description : "This is an appointment that aligns with Clic Sante's systems"
 
 * id 1..1
 * language 1..1
+* meta 0..1
+  * extension contains $tzExtension named timezone 0..1
+  * extension[timezone] ^short = "The timezone of all datetime present in the appointment"
 * status 1..1
-* status from AppointmentStateValueSet (required)
+* status from AppointmentStateValueSet
   * ^short = "taken | pending | awaiting-confirmation | confirmed | late"
 * created 1..1
 * start 1..1
 * end 1..1
 
-// TODO: maybe we should add identifier?
+// TODO: maybe we should add identifier slices?
 
 * participant 1..*
   * modifierExtension 0..0
@@ -32,9 +35,6 @@ Description : "This is an appointment that aligns with Clic Sante's systems"
 
 * extension contains AppointmentStatusModified named statusModified 0..1
 * extension[statusModified] ^short = "When the status of the appointment was last modified"
-
-* extension contains $tzExtension named timezone 0..1
-* extension[timezone] ^short = "The timezone of all datetime present in the appointment"
 
 * extension contains AppointmentGroup named group 0..1
 * extension[group]  ^short = "UUID of the group to which the appointment belongs"
