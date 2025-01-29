@@ -3,6 +3,7 @@ Id: appointment-patient
 Parent: Patient
 Title: "Appointment Patient"
 Description: "This is a patient for an appointment that aligns with Clic Sante's Systems"
+* ^experimental = true
 
 * name 1..*
 * birthDate 1..1
