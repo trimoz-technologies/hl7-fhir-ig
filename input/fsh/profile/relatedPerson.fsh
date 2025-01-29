@@ -3,6 +3,8 @@ Id: related-person
 Parent: RelatedPerson
 Title: "Related Person"
 Description: "A constrained RelatedPerson resource to represent specific familial relationships, including spouse, mother, father and emergency contact"
+* ^experimental = true
+
 * id 1..1
 * meta 0..0
 * implicitRules 0..0

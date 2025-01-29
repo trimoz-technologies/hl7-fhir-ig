@@ -4,6 +4,9 @@ Title: "Appointment Follow Up State Codes"
 Description : "Describes the follow up state of an appointment"
 * ^status = #active
 * ^content = #complete
+* ^caseSensitive = true
+* ^experimental = true
+
 * #REACHED
     "Reached"
 * #NOT_REACHED
