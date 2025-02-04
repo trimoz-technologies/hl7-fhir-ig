@@ -21,7 +21,7 @@ Usage: #example
 
 * maritalStatus = $martialStatusCode#S
 
-* extension[commPhoneOnly] = ExamplePatientCommPhoneOnly
+* extension[commPhoneOnly] = ExamplePatientCommPhoneOnlyExtension
 * extension[occupation] = ExamplePatientOccupationExtension
 * extension[phoneExtension] = ExamplePatientPhoneExtension
 * extension[profileNumber] = ExamplePatientProfileNumberExtension

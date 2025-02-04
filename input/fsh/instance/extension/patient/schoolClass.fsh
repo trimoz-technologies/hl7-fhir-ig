@@ -1,5 +1,5 @@
 Instance: ExamplePatientSchoolClassExtension
-InstanceOf: PatientSchoolClassExtension
+InstanceOf: PatientSchoolClass
 Title: "Patient School Class Extension Example"
 Description: "An instance of a school class extension based on PatientSchoolClassExtension."
 Usage: #inline
