@@ -20,3 +20,12 @@ Usage: #example
 * name[2].text = "Weldon Mickael Cormier"
 
 * maritalStatus = $martialStatusCode#S
+
+* extension[commPhoneOnly] = ExamplePatientCommPhoneOnly
+* extension[occupation] = ExamplePatientOccupationExtension
+* extension[phoneExtension] = ExamplePatientPhoneExtension
+* extension[profileNumber] = ExamplePatientProfileNumberExtension
+* extension[schoolClass] = ExamplePatientSchoolClassExtension
+* extension[schoolName] = ExamplePatientSchoolNameExtension
+* extension[unknownFather] = ExamplePatientUnknownFatherExtension
+* extension[unknownMother] = ExamplePatientUnknownMotherExtension
