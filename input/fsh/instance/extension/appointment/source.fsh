@@ -4,4 +4,4 @@ Title: "Example Appointment Source Extension"
 Description: "An instance of an appointment source extension."
 Usage: #inline
 
-* valueCode = AppointmentSourceCodeSystem#PUBLIC
+* valueCode = AppointmentSourceCodeSystem#public

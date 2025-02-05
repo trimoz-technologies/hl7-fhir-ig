@@ -4,4 +4,4 @@ Title: "Example Appointment Availability State Extension"
 Description: "An instance of an appointment availability state extension"
 Usage: #inline
 
-* valueCode = AppointmentAvailabilityStateCodeSystem#ACTIVE
+* valueCode = AppointmentAvailabilityStateCodeSystem#active

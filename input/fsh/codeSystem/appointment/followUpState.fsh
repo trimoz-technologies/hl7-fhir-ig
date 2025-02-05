@@ -7,9 +7,9 @@ Description : "Describes the follow up state of an appointment."
 * ^caseSensitive = true
 * ^experimental = true
 
-* #REACHED
+* #reached
     "Reached"
-* #NOT_REACHED
+* #not_reached
     "Not Reached"
-* #NO_ACTION_TAKEN
+* #no_action_taken
     "No Action Taken"

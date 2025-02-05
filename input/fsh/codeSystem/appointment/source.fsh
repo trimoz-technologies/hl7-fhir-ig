@@ -7,7 +7,7 @@ Description : "Describes the platform used to take an appointment."
 * ^caseSensitive = true
 * ^experimental = true
 
-* #ADMIN
+* #admin
     "Admin" "The appointment was taken by a worker of the establishment using the admin application."
-* #PUBLIC
+* #public
     "Public" "The appointment was taken by a citizen using the public portal."

@@ -7,13 +7,13 @@ Description : "Describes the state of availability of an appointment."
 * ^caseSensitive = true
 * ^experimental = true
 
-* #INVALID
+* #invalid
     "Invalid"
-* #DELETED
+* #deleted
     "Deleted"
-* #PENDING
+* #pending
     "Pending"
-* #ACTIVE
+* #active
     "Active"
-* #INACTIVE
+* #inactive
     "Inactive"

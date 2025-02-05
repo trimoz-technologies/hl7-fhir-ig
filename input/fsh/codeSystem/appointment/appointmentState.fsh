@@ -7,13 +7,13 @@ Description : "Describes the state (status) of an appointment."
 * ^caseSensitive = true
 * ^experimental = true
 
-* #TAKEN
+* #taken
     "Taken"
-* #PENDING
+* #pending
     "Pending"
-* #AWAITING_CONFIRMATION
+* #awaiting_confirmation
     "Awaiting confirmation"
-* #CONFIRMED
+* #confirmed
     "Confirmed"
-* #LATE
+* #late
     "Late"
