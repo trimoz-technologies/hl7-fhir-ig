@@ -1,0 +1,35 @@
+build:image:ci:
+  image: docker
+  stage: pre-build
+  tags:
+    - docker-latest-dind
+  script:
+    - docker login -u "${CI_REGISTRY_USER}" -p "${CI_REGISTRY_PASSWORD}" "${CI_REGISTRY}"
+    - docker rmi --force ${LOCAL_CI_IMAGE}
+    - docker build --pull -f Dockerfile-ci . --tag ${LOCAL_CI_IMAGE}
+    - docker push ${LOCAL_CI_IMAGE}
+
+build:ig:base:
+  image: ${LOCAL_CI_IMAGE}
+  stage: build
+  needs:
+    - build:image:ci
+  script:
+    - ./_updatePublisher.sh -y
+    - ./_genonce.sh
+  artifacts:
+    paths:
+      - output/qa.json
+
+test:qa:warning:
+  image: ${LOCAL_CI_IMAGE}
+  stage: test
+  script:
+    - ./ci/scripts/check-qa-json.sh warning
+  allow_failure: true
+
+test:qa:error:
+  image: ${LOCAL_CI_IMAGE}
+  stage: test
+  script:
+    - ./ci/scripts/check-qa-json.sh error

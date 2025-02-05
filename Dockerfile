@@ -1,7 +1,7 @@
 FROM node:18-alpine
 
 # Install necessary packages and fonts for Java
-RUN apk add --no-cache bash curl openjdk11 git fontconfig ttf-dejavu ruby ruby-dev build-base jekyll
+RUN apk add --no-cache bash curl openjdk11 git fontconfig ttf-dejavu ruby ruby-dev build-base jekyll jq
 
 # Install Bundler and Jekyll for IG generation
 RUN gem install bundler
