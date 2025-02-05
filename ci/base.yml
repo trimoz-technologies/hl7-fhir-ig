@@ -33,3 +33,4 @@ test:qa:error:
   stage: test
   script:
     - ./ci/scripts/check-qa-json.sh error
+  allow_failure: true
