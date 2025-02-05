@@ -7,6 +7,8 @@ Description : "Appointment Status code from Clic sante"
 * ^caseSensitive = true
 * ^experimental = true
 
+
+
 * #TAKEN
     "Taken"
 * #PENDING
