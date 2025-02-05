@@ -6,7 +6,7 @@ build:image:ci:
   script:
     - docker login -u "${CI_REGISTRY_USER}" -p "${CI_REGISTRY_PASSWORD}" "${CI_REGISTRY}"
     - docker rmi --force ${LOCAL_CI_IMAGE}
-    - docker build --pull -f Dockerfile-ci . --tag ${LOCAL_CI_IMAGE}
+    - docker build --pull -f Dockerfile . --tag ${LOCAL_CI_IMAGE}
     - docker push ${LOCAL_CI_IMAGE}
 
 build:ig:base:
