@@ -1,7 +1,7 @@
 Instance: ExampleCoverageNamExtension
 InstanceOf: CoverageNam
-Title: "Coverage Nam Extension Example"
-Description: "An instance of coverage nam extension based on CoverageNam."
+Title: "Example Coverage NAM Extension"
+Description: "An instance of a nam extension for a coverage."
 Usage: #inline
 
 * valueString = "DOEJ90010116"

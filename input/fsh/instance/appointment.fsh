@@ -1,7 +1,7 @@
 Instance: ExampleAppointment
 InstanceOf: AppointmentProfile
-Title: "Appointment Appointment Instance"
-Description: "An instance of an appointment based on the AppointmentProfile profile."
+Title: "Example Appointment"
+Description: "An instance of an appointment."
 Usage: #example
 
 * id = "1"
@@ -18,7 +18,9 @@ Usage: #example
 * participant[0].status = ClientStateCodeSystem#UNDEFINED
 * participant[0].extension[clientStateModified] = ExampleClientStateModifiedExtension
 
-* contained[0] = ExamplePatientFromAppointment
+* contained[+] = ExamplePatientFromAppointment
+* contained[+] = ExampleActiveCoverage
+* contained[+] = ExampleRelatedMother
 
 * extension[availabilityState] = ExampleAvailabilityStateExtension
 * extension[statusModified] = ExampleAppointmentStatusExtension

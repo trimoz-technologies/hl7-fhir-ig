@@ -1,7 +1,7 @@
 CodeSystem: AppointmentAvailabilityStateCodeSystem
-Id:         appointment-availability-state
+Id: appointment-availability-state
 Title: "Appointment Availability State Codes"
-Description : "Describes the state of availability of an appointment"
+Description : "Describes the state of availability of an appointment."
 * ^status = #active
 * ^content = #complete
 * ^caseSensitive = true

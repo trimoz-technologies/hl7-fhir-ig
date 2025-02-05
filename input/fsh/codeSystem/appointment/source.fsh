@@ -1,7 +1,7 @@
 CodeSystem: AppointmentSourceCodeSystem
-Id:         appointment-source
+Id: appointment-source
 Title: "Appointment Source Codes"
-Description : "Describes the origin of an appointment"
+Description : "Describes the platform used to take an appointment."
 * ^status = #active
 * ^content = #complete
 * ^caseSensitive = true

@@ -1,7 +1,7 @@
 CodeSystem: ClientStateCodeSystem
-Id:         client-state
-Title:     "Client State Codes"
-Description: "Client State Codes from Clic Sante"
+Id: client-state
+Title: "Client State Codes"
+Description: "Describes the client state (status) of a patient participation on an appointment."
 * ^status = #active
 * ^content = #complete
 * ^caseSensitive = true

@@ -1,7 +1,7 @@
 CodeSystem: AppointmentFollowUpStateCodeSystem
-Id:         appointment-follow-up-state
+Id: appointment-follow-up-state
 Title: "Appointment Follow Up State Codes"
-Description : "Describes the follow up state of an appointment"
+Description : "Describes the follow up state of an appointment."
 * ^status = #active
 * ^content = #complete
 * ^caseSensitive = true

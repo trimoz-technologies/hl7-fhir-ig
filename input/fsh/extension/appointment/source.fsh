@@ -1,7 +1,7 @@
 Extension: AppointmentSource
 Id: appointment-source
 Title: "Availability Source"
-Description: "An extension to represent how the appointment was taken."
+Description: "An extension to represent which platform was use to take the appointment."
 Context: Appointment
 * ^experimental = true
 

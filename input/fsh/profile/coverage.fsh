@@ -2,7 +2,7 @@ Profile: CoverageProfile
 Id: coverage
 Parent: Coverage
 Title: "Coverage"
-Description : "This is an coverage that aligns with Clic Sante's systems"
+Description : "This is an coverage that aligns with Clic Sante's systems."
 * ^experimental = true
 
 * implicitRules 0..0

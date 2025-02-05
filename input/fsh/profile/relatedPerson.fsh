@@ -2,7 +2,7 @@ Profile: RelatedPersonProfile
 Id: related-person
 Parent: RelatedPerson
 Title: "Related Person"
-Description: "A constrained RelatedPerson resource to represent specific familial relationships, including spouse, mother, father and emergency contact"
+Description: "A constrained RelatedPerson resource to represent specific familial relationships, including spouse, mother, father and emergency contact."
 * ^experimental = true
 
 * id 1..1

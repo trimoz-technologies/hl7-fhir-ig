@@ -1,7 +1,7 @@
 ValueSet: ClientStateValueSet
 Id: client-state
 Title: "Client State Value Set"
-Description: "Client State Value Set from Clic Sante"
+Description: "Describes the patient participation state (status) on an appointment."
 * ^experimental = true
 
 * include codes from system ClientStateCodeSystem

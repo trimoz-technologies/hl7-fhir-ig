@@ -1,7 +1,7 @@
 ValueSet: PatientRelationshipTypeValueSet
 Id: patient-relationship-type
 Title: "Patient Relationship Value Set"
-Description: "A ValueSet derived from PatientRelationshipType, limited to 'Mother', 'Father', 'Spouse' and Emergency Contact"
+Description: "A ValueSet derived from PatientRelationshipType, limited to 'Mother', 'Father', 'Spouse' and Emergency Contact."
 * ^experimental = true
 
 * include $v3RoleCode#FTH
