@@ -14,3 +14,5 @@ Usage: #example
   * family = "Moe"
 
 * relationship = $v3RoleCode#MTH
+
+* extension[relatedPersonOccupation] = ExampleRelatedPersonOccupationExtension
