@@ -10,7 +10,6 @@ Description: "A constrained RelatedPerson resource to represent specific familia
 * implicitRules 0..0
 * language 0..0
 * contained 0..0
-* extension 0..0
 * modifierExtension 0..0
 * identifier 0..0
 * active 0..0
@@ -33,3 +32,6 @@ Description: "A constrained RelatedPerson resource to represent specific familia
 * period 0..0
 * telecom 0..1
 * communication 0..0
+
+* extension contains RelatedPersonOccupation named relatedPersonOccupation 0..1
+* extension[relatedPersonOccupation] ^short = "The occupation of the related person"
