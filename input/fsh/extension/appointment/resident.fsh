@@ -28,22 +28,22 @@ Context: AppointmentResident
 
 Extension: ResidentContactAlternative
 Id: appointment-resident-contact-alternative
-Title: "Resident Contact Alternative"
-Description: "An extension to represent the resident's alternative contact."
+Title: "Resident Contact Application Alternative"
+Description: "An extension to represent the alternative application to use to contact the resident."
 Context: AppointmentResident
 * value[x] only string
 
 Extension: ResidentContactAllowZoom
 Id: appointment-resident-allow-zoom
 Title: "Resident Contact Allow Zoom"
-Description: "An extension to represent the whether resident is allowed to be contacted via Zoom."
+Description: "An extension to represent whether the resident is allowed to be contacted via Zoom."
 Context: AppointmentResident
 * value[x] only boolean
 
 Extension: ResidentMultipleUser
 Id: appointment-resident-multiple-user
 Title: "Resident Multiple User"
-Description: "An extension to represent the whether there is multiple user."
+Description: "An extension to represent whether there are multiple participant."
 Context: AppointmentResident
 * value[x] only boolean
 
@@ -67,10 +67,10 @@ Context: Appointment
 * extension[birthdayMonth] ^short = "The resident's birthday month"
 
 * extension contains ResidentContactAlternative named contactAlternative 0..1
-* extension[contactAlternative] ^short = "The resident's alternative contact"
+* extension[contactAlternative] ^short = "Alternative application to contact the resident"
 
 * extension contains ResidentContactAllowZoom named allowZoom 0..1
 * extension[allowZoom] ^short = "Whether the resident allows to be contacted via Zoom"
 
 * extension contains ResidentMultipleUser named multipleUser 0..1
-* extension[multipleUser] ^short = "Whether there is multiple user"
+* extension[multipleUser] ^short = "Whether there is multiple participant"

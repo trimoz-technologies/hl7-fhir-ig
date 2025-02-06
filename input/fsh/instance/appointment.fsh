@@ -19,8 +19,8 @@ Usage: #example
 * participant[0].extension[clientStateModified] = ExampleClientStateModifiedExtension
 
 * contained[+] = ExamplePatientFromAppointment
-* contained[+] = ExampleActiveCoverage
-* contained[+] = ExampleRelatedMother
+// * contained[+] = ExampleActiveCoverage
+// * contained[+] = ExampleRelatedMother
 
 * extension[availabilityState] = ExampleAvailabilityStateExtension
 * extension[statusModified] = ExampleAppointmentStatusExtension
@@ -32,3 +32,4 @@ Usage: #example
 * extension[isReminderSent] = ExampleAppointmentReminderSentExtension
 * extension[isRelaunchSent] = ExampleAppointmentRelaunchSentExtension
 * extension[isDistanceHidden] = ExampleAppointmentDistanceHiddenExtension
+* extension[resident] = ExampleAppointmentResidentExtension
