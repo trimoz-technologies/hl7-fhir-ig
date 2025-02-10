@@ -13,4 +13,5 @@ Usage: #example
 * status = $financialResourceStatus#active
 
 * extension[coverageNam] = ExampleCoverageNamExtension
+* extension[coveragePrescriptionDate] = ExampleCoveragePrescriptionDateExtension
 * extension[coverageNamSequentialNumber] = ExampleCoverageNamSequentialNumberExtension
