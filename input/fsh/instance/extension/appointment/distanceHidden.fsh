@@ -1,7 +1,7 @@
 Instance: ExampleAppointmentDistanceHiddenExtension
 InstanceOf: AppointmentDistanceHidden
-Title: "Appointment Distance Hidden Extension Example"
-Description: "An instance of an appointment distance hidden extension based on AppointmentReminderSent."
+Title: "Example Appointment Distance Hidden Extension"
+Description: "An instance of an appointment distance hidden extension."
 Usage: #inline
 
 * valueBoolean = false

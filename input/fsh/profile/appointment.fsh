@@ -2,7 +2,7 @@ Profile: AppointmentProfile
 Id: appointment
 Parent: Appointment
 Title: "Appointment"
-Description : "This is an appointment that aligns with Clic Sante's systems"
+Description : "An appointment that aligns with Clic Sante's systems."
 * ^experimental = true
 
 * implicitRules 0..0

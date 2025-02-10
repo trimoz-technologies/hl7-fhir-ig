@@ -1,25 +1,25 @@
 CodeSystem: ClientStateCodeSystem
-Id:         client-state
-Title:     "Client State Codes"
-Description: "Client State Codes from Clic Sante"
+Id: client-state
+Title: "Client State Codes"
+Description: "Describes the client state (status) of a patient participation on an appointment."
 * ^status = #active
 * ^content = #complete
 * ^caseSensitive = true
 * ^experimental = true
 
-* #ABSENT
+* #absent
     "Absent"
-* #CANCELLED_ADMIN
+* #cancelled-admin
     "Cancelled (admin)"
-* #CANCELLED_PUBLIC
+* #cancelled-public
     "Cancelled (public)"
-* #LATE
+* #late
     "Late"
-* #NOT_ELIGIBLE
+* #not-eligible
     "Not eligible"
-* #PRESENT
+* #present
     "Present"
-* #SAMPLE_RECEIVED
+* #sample-received
     "Sample received"
-* #UNDEFINED
+* #undefined
     "Undefined"

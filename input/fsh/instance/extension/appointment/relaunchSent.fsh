@@ -1,7 +1,7 @@
 Instance: ExampleAppointmentRelaunchSentExtension
 InstanceOf: AppointmentRelaunchSent
-Title: "Appointment Relaunch Sent Extension Example"
-Description: "An instance of an appointment relaunch sent extension based on AppointmentReminderSent."
+Title: "Example Appointment Relaunch Sent Extension"
+Description: "An instance of an appointment relaunch sent extension."
 Usage: #inline
 
 * valueBoolean = false

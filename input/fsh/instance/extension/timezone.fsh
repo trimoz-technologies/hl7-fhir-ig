@@ -1,6 +1,6 @@
 Instance: ExampleTimezoneExtension
 InstanceOf: $tzExtension
-Title: "Timezone Extension Example"
+Title: "Example Timezone Extension"
 Description: "An instance of a timezone extension."
 Usage: #inline
 

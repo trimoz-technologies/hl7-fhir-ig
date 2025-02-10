@@ -1,7 +1,7 @@
 Instance: ExampleAppointmentSourceExtension
 InstanceOf: AppointmentSource
-Title: "Appointment Source Extension Example"
-Description: "An instance of an appointment source extension based on AppointmentSource."
+Title: "Example Appointment Source Extension"
+Description: "An instance of an appointment source extension."
 Usage: #inline
 
-* valueCode = AppointmentSourceCodeSystem#PUBLIC
+* valueCode = AppointmentSourceCodeSystem#public

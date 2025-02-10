@@ -1,7 +1,7 @@
 Instance: ExampleCoverageNamSequentialNumberExtension
 InstanceOf: CoverageNamSequentialNumber
-Title: "Coverage Nam Sequential Number Extension Example"
-Description: "An instance of coverage nam sequential number extension based on CoverageNam."
+Title: "Example NAM Sequential Number Extension"
+Description: "An instance of a nam sequential number extension for a coverage."
 Usage: #inline
 
 * valueString = "19"

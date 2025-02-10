@@ -1,7 +1,7 @@
 Instance: ExamplePatientFromAppointment
 InstanceOf: AppointmentPatientProfile
-Title: "Appointment Patient Instance"
-Description: "An instance of a patient based on the AppointmentPatientProfile profile."
+Title: "Example Appointment Patient"
+Description: "An instance of a patient contained inside an appointment."
 Usage: #example
 
 * id = "65455b44-591e-420a-a34a-1e0d48e50b44"
