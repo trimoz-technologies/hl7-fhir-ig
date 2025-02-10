@@ -13,3 +13,6 @@ Description : "This is an coverage that aligns with Clic Sante's systems."
 
 * extension contains CoverageNamSequentialNumber named coverageNamSequentialNumber 0..1
 * extension[coverageNamSequentialNumber] ^short = "The nam sequential number of the patient"
+
+* extension contains CoveragePrescriptionDate named coveragePrescriptionDate 0..1
+* extension[coveragePrescriptionDate] ^short = "The prescription date of the coverage"
