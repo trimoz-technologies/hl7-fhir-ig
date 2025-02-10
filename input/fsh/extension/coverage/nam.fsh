@@ -1,7 +1,7 @@
 Extension: CoverageNam
 Id: coverage-nam
-Title: "Coverage Nam"
-Description: "An extension to represent the nam of the coverage."
+Title: "Coverage NAM"
+Description: "An extension to represent the nam associated to a coverage."
 Context: Coverage
 
 * value[x] only string

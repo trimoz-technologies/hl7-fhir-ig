@@ -1,11 +1,11 @@
 Instance: ExampleActiveCoverage
 InstanceOf: CoverageProfile
 Title: "Example Active Coverage"
-Description: "An instance of an active coverage with a nam and a nam sequential number."
+Description: "An instance of an active coverage from the RAMQ."
 Usage: #example
 
 * payor
-  * reference = "#RAMQ"
+  * display = "RAMQ"
 
 * beneficiary
   * reference = "Patient/65455b44-591e-420a-a34a-1e0d48e50b44"
@@ -14,5 +14,3 @@ Usage: #example
 
 * extension[coverageNam] = ExampleCoverageNamExtension
 * extension[coverageNamSequentialNumber] = ExampleCoverageNamSequentialNumberExtension
-
-* contained[0] = ExampleOrganizationRamq

@@ -1,7 +1,7 @@
 Instance: ExampleAvailabilityStateExtension
 InstanceOf: AppointmentAvailabilityState
-Title: "Appointment Availability State Extension Example"
-Description: "An instance of an availability state based on the AppointmentAvailabilityState extension."
+Title: "Example Appointment Availability State Extension"
+Description: "An instance of an appointment availability state extension"
 Usage: #inline
 
-* valueCode = AppointmentAvailabilityStateCodeSystem#ACTIVE
+* valueCode = AppointmentAvailabilityStateCodeSystem#active

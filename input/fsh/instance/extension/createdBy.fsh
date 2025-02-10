@@ -1,7 +1,7 @@
 Instance: ExampleCreatedByExtension
 InstanceOf: CreatedBy
-Title: "CreatedBy Extension Example"
-Description: "An instance of a timezone extension."
+Title: "Example CreatedBy Extension"
+Description: "An instance of a created by extension."
 Usage: #inline
 
 * valueInteger = 1

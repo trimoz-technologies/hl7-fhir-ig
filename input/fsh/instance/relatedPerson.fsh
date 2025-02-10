@@ -1,7 +1,7 @@
 Instance: ExampleRelatedMother
 InstanceOf: RelatedPersonProfile
-Title: "Example Related Person"
-Description: "An instance of a related person as a mother based on the RelatedPersonProfile profile."
+Title: "Example Related Person (Mother)"
+Description: "An instance of a related person who is a mother."
 Usage: #example
 
 * id = "b091622d-2b03-4715-84ba-a2565e588a13"
