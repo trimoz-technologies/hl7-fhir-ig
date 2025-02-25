@@ -53,6 +53,20 @@ publisher:
 #     complexExamples.xml:
 #
 #
+pages:
+  index.md:
+    title: Home
+  identifiers.md:
+    title: Identifiers Overview
+    nam.md:
+      title: Numéro d'assurance maladie (NAM)
+    i-clsc.md:
+      title: CLSC Patient File Number (i-clsc)
+    p-code.md:
+      title: Patient Employee Number (p-code)
+    scannedRequest.md:
+      title: Scanned Request
+
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
 # resource), the code is the YAML key. If a parameter allows repeating
@@ -76,6 +90,13 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Table of Contents: toc.html
+  Identifiers:
+    Identifiers Overview: identifiers.html
+    Numéro d'assurance maladie (NAM): nam.html
+    CLSC Patient File Number (i-clsc): i-clsc.html
+    Patient Employee Number (p-code): p-code.html
+    Scanned Request: scannedRequest.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
