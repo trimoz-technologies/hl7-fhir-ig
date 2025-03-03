@@ -52,7 +52,8 @@ publisher:
 #     simpleExamples.xml:
 #     complexExamples.xml:
 #
-#
+
+# Custom pages for clic sante concept
 pages:
   index.md:
     title: Home
