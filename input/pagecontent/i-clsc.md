@@ -5,7 +5,7 @@ This identifier represents a patient file number in a [local community services 
 {
   "identifier": [
     {
-      "system": "http://docs.clicsante.ca/fhir/base/i-clsc",
+      "system": "http://documentation.clicsante.ca/fhir/base/i-clsc",
       "value": "10024"
     }
   ]

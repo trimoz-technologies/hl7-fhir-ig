@@ -6,7 +6,7 @@ It is typically use to uniquely identify an employer's employees when creating a
 {
   "identifier": [
     {
-      "system": "http://docs.clicsante.ca/fhir/base/p-code",
+      "system": "http://documentation.clicsante.ca/fhir/base/p-code",
       "value": "107"
     }
   ]

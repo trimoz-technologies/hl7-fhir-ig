@@ -10,7 +10,7 @@ You can learn more about the Health Insurance Card here: [https://www.ramq.gouv.
 {
   "identifier": [
     {
-      "system": "http://docs.clicsante.ca/fhir/base/nam",
+      "system": "http://documentation.clicsante.ca/fhir/base/nam",
       "value": "TEST54122816"
     }
   ]
