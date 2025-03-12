@@ -13,8 +13,6 @@ Description: "Describes the client state (status) of a patient participation on 
     "Cancelled (admin)"
 * #cancelled-public
     "Cancelled (public)"
-* #late
-    "Late"
 * #not-eligible
     "Not eligible"
 * #present

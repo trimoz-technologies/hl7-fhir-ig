@@ -15,5 +15,3 @@ Description : "Describes the state (status) of an appointment."
     "Awaiting confirmation"
 * #confirmed
     "Confirmed"
-* #late
-    "Late"
