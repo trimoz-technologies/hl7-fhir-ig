@@ -15,7 +15,7 @@ Description : "An appointment that aligns with Clic Sante's systems."
   * extension[timezone] ^short = "The timezone of all datetime present in the appointment"
 * status 1..1
 * status from AppointmentStateValueSet
-  * ^short = "taken | pending | awaiting-confirmation | confirmed | late"
+  * ^short = "taken | pending | awaiting-confirmation | confirmed"
 * created 1..1
 * start 1..1
 * end 1..1
@@ -26,7 +26,7 @@ Description : "An appointment that aligns with Clic Sante's systems."
   * modifierExtension 0..0
   * actor only Reference(AppointmentPatientProfile or RelatedPersonProfile)
   * status from ClientStateValueSet
-    * ^short = "absent | cancelled-admin | cancelled-public | late | not-eligible | present | sample-received | undefined"
+    * ^short = "absent | cancelled-admin | cancelled-public | not-eligible | present | sample-received | undefined"
   * extension contains ClientStateModified named clientStateModified 0..1
   * extension[clientStateModified] ^short = "When the status was last modified"
 
