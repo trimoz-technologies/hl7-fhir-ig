@@ -1,5 +1,5 @@
-Instance: ExampleClientStateModifiedExtension
-InstanceOf: ClientStateModified
+Instance: ExampleAppointmentClientStateModifiedExtension
+InstanceOf: AppointmentClientStateModified
 Title: "Example Client State Modified Extension"
 Description: "An instance of an appointment patient participation client state modified extension."
 Usage: #inline
