@@ -16,7 +16,7 @@ Usage: #example
 * participant[0].actor.reference = "#65455b44-591e-420a-a34a-1e0d48e50b44"
 * participant[0].actor.display = "Weldon Cormier"
 * participant[0].status = ClientStateCodeSystem#undefined
-* participant[0].extension[clientStateModified] = ExampleClientStateModifiedExtension
+* participant[0].extension[clientStateModified] = ExampleAppointmentClientStateModifiedExtension
 
 * contained[+] = ExamplePatientFromAppointment
 // * contained[+] = ExampleActiveCoverage
