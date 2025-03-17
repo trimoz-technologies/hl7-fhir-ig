@@ -27,7 +27,7 @@ Description : "An appointment that aligns with Clic Sante's systems."
   * actor only Reference(AppointmentPatientProfile or RelatedPersonProfile)
   * status from ClientStateValueSet
     * ^short = "absent | cancelled-admin | cancelled-public | not-eligible | present | sample-received | undefined"
-  * extension contains ClientStateModified named clientStateModified 0..1
+  * extension contains AppointmentClientStateModified named clientStateModified 0..1
   * extension[clientStateModified] ^short = "When the status was last modified"
 
 * extension contains AppointmentAvailabilityState named availabilityState 0..1
